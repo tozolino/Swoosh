@@ -23,7 +23,7 @@
         android:id="@+id/ivLogo"
         android:layout_width="109dp"
         android:layout_height="42dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,14 +31,15 @@
         app:srcCompat="@drawable/swooshlogo" />
 
     <TextView
-        android:id="@+id/tvLeagueSubtitle"
+        android:id="@+id/tvSkillSubtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="36dp"
         android:text="@string/league_subtitle"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
 
@@ -58,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvLeagueSubtitle" />
+        app:layout_constraintTop_toBottomOf="@+id/tvSkillSubtitle" />
 
     <Button
         android:id="@+id/btnLeagueWomens"
@@ -97,7 +98,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnLeagueWomens" />
 
     <Button
-        android:id="@+id/btnLeagueNext"
+        android:id="@+id/btnSkillFinish"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -106,6 +107,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_btn_dark"
         android:fontFamily="@font/montserrat"
+        android:onClick="goToSkillActivity"
         android:text="@string/btn_next_label"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FFFFFF"

@@ -9,5 +9,9 @@
     <string name="btn_womens_label">Womens</string>
     <string name="btn_coed_label">Co-ed</string>
     <string name="btn_next_label">NEXT</string>
+    <string name="skill_subtitle">I am a:</string>
+    <string name="btn_beginner_label">Beginner</string>
+    <string name="btn_baller_label">Baller</string>
+    <string name="btn_finish_label">FINISH</string>
 
 </resources>
