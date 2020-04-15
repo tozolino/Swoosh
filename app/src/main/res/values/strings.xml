@@ -4,4 +4,10 @@
     <string name="welcome_subtitle">ON GOING ALL OUT</string>
     <string name="welcome_desc">Find a team in your city and dominate the league.</string>
     <string name="welcome_btn_label">GET STARTED</string>
+    <string name="league_subtitle">Desired League:</string>
+    <string name="btn_mens_label">Mens</string>
+    <string name="btn_womens_label">Womens</string>
+    <string name="btn_coed_label">Co-ed</string>
+    <string name="btn_next_label">NEXT</string>
+
 </resources>
