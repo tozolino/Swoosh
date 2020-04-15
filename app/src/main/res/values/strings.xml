@@ -13,5 +13,6 @@
     <string name="btn_beginner_label">Beginner</string>
     <string name="btn_baller_label">Baller</string>
     <string name="btn_finish_label">FINISH</string>
+    <string name="finish_description">Looking for a league near you...</string>
 
 </resources>

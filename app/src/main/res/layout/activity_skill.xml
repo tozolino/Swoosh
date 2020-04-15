@@ -7,7 +7,7 @@
     tools:context=".LeagueActivity">
 
     <ImageView
-        android:id="@+id/ivWelcomeBackground"
+        android:id="@+id/ivFinishBackground"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
@@ -27,11 +27,11 @@
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/ivWelcomeBackground"
+        app:layout_constraintTop_toTopOf="@+id/ivFinishBackground"
         app:srcCompat="@drawable/swooshlogo" />
 
     <TextView
-        android:id="@+id/tvSkillSubtitle"
+        android:id="@+id/tvFinishDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
@@ -58,7 +58,7 @@
         app:layout_constraintEnd_toStartOf="@+id/btnSkillBaller"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvSkillSubtitle" />
+        app:layout_constraintTop_toBottomOf="@+id/tvFinishDescription" />
 
     <Button
         android:id="@+id/btnSkillBaller"
@@ -81,21 +81,23 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="368dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_btn_dark"
         android:fontFamily="@font/montserrat"
+        android:onClick="goToFinishActivity"
         android:text="@string/btn_finish_label"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/ivFinishBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLeagueMens" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSkillBeginner"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="OnClick" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

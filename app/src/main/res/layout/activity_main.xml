@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/ivWelcomeBackground"
+        android:id="@+id/ivFinishBackground"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/beginnerballerbg" />
+        app:srcCompat="@drawable/welcomescreenbg" />
 
     <ImageView
         android:id="@+id/ivLogo"
@@ -27,7 +27,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/ivWelcomeBackground"
+        app:layout_constraintTop_toTopOf="@+id/ivFinishBackground"
         app:srcCompat="@drawable/swooshlogo" />
 
     <TextView
@@ -67,7 +67,7 @@
         android:text="@string/welcome_desc"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@+id/ivWelcomeBackground"
+        app:layout_constraintEnd_toEndOf="@+id/ivFinishBackground"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvWelcomeSubtitle" />
 
@@ -82,7 +82,7 @@
         android:text="@string/welcome_btn_label"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/ivWelcomeBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/ivFinishBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

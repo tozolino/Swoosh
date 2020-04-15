@@ -7,7 +7,7 @@
     tools:context=".LeagueActivity">
 
     <ImageView
-        android:id="@+id/ivWelcomeBackground"
+        android:id="@+id/ivFinishBackground"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/beginnerballerbg" />
+        app:srcCompat="@drawable/desiredleaguebg" />
 
     <ImageView
         android:id="@+id/ivLogo"
@@ -27,11 +27,11 @@
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/ivWelcomeBackground"
+        app:layout_constraintTop_toTopOf="@+id/ivFinishBackground"
         app:srcCompat="@drawable/swooshlogo" />
 
     <TextView
-        android:id="@+id/tvSkillSubtitle"
+        android:id="@+id/tvFinishDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
@@ -59,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvSkillSubtitle" />
+        app:layout_constraintTop_toBottomOf="@+id/tvFinishDescription" />
 
     <Button
         android:id="@+id/btnLeagueWomens"
@@ -98,7 +98,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnLeagueWomens" />
 
     <Button
-        android:id="@+id/btnSkillFinish"
+        android:id="@+id/btnLeagueNext"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
